@@ -1,138 +1,4 @@
 {
-    "editor.minimap.enabled": false,
-    "editor.maxTokenizationLineLength": 10000000,
-    "editor.find.autoFindInSelection": "multiline",
-    "editor.find.seedSearchStringFromSelection": "selection",
-    "editor.renderWhitespace": "all",
-    "editor.showFoldingControls": "always",
-    "editor.rulers": [60, 80, 120],
-    "editor.detectIndentation": false,
-    "editor.copyWithSyntaxHighlighting": false,
-    "editor.stickyScroll.enabled": false,
-    "editor.mouseWheelZoom": true,
-    "search.showLineNumbers": true,
-    "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "maximize",
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.tabActionCloseVisibility": false
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.colorTheme": "Light Modern",
-    "workbench.activityBar.location": "top",
-    "workbench.tree.enableStickyScroll": false,
-    "workbench.tree.renderIndentGuides": "always",
-    "problems.visibility": false,
-    "window.customMenuBarAltFocus": false,
-    "window.menuBarVisibility": "compact",
-    "git.autofetch": true,
-    "git.pruneOnFetch": true,
-    "git.openRepositoryInParentFolders": "never",
-    "git.blame.editorDecoration.enabled": false,
-    "diffEditor.renderSideBySide": true,
-    "diffEditor.renderSideBySideInlineBreakpoint": 1,
-    "diffEditor.ignoreTrimWhitespace": true,
-    "diffEditor.hideUnchangedRegions.enabled": false,
-    "terminal.integrated.defaultProfile.windows": "Git Bash",
-    "terminal.integrated.allowChords": false,
-    "terminal.integrated.sendKeybindingsToShell": true,
-    "terminal.integrated.stickyScroll.enabled": false,
-    "terminal.integrated.altClickMovesCursor": false,
-    "terminal.integrated.mouseWheelZoom": true,
-    "extensions.ignoreRecommendations": true,
-    "npm.exclude": "",
-    "github.copilot.nextEditSuggestions.enabled": true,
-    "github.copilot.enable": {
-        "*": true,
-        "plaintext": false,
-        "markdown": false,
-        "scminput": false
-    },
-    "chat.viewSessions.orientation": "stacked",
-    "githd.editor.disabled": true,
-    "githd.blameView.enabled": "disabled",
-    "githd.logView.expressMode": true,
-    "githd.logView.displayExpressStatus": false,
-    "[plaintext]": {
-        "editor.defaultFoldingRangeProvider": "zokugun.explicit-folding",
-        "explicitFolding.rules": [
-            {
-                "begin": "{{{",
-                "end": "}}}"
-            }
-        ]
-    },
-    "[markdown]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.wordWrap": "off"
-    },
-    "[css]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[xml]": {
-        "editor.defaultFormatter": "redhat.vscode-xml"
-    },
-    "[sql]": {
-        "editor.defaultFormatter": "ReneSaarsoo.sql-formatter-vsc"
-    },
-    "[oracle-sql]": {
-        "editor.defaultFormatter": "Oracle.sql-developer"
-    },
-    "[groovy]": {
-        "editor.defaultFormatter": "NicolasVuillamy.vscode-groovy-lint"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "prettier.tabWidth": 4,
-    "prettier.trailingComma": "none",
-    "markdown.extension.list.indentationSize": "inherit",
-    "markdowntable.showMenu.csvToTable": true,
-    "markdownlint.config": {
-        "MD007": {
-            "indent": 4
-        },
-        "MD010": {
-            "code_blocks": false
-        }
-    },
-    "SQL-Formatter-VSCode.dialect": "plsql",
-    "SQL-Formatter-VSCode.ignoreTabSettings": true,
-    "SQL-Formatter-VSCode.tabSizeOverride": 4,
-    "SQL-Formatter-VSCode.linesBetweenQueries": 2,
-    "sqldeveloper.database.nls.language": "JAPANESE",
-    "sqldeveloper.database.nls.dateLanguage": "JAPANESE",
-    "sqldeveloper.database.nls.sort": "JAPANESE_M",
-    "sqldeveloper.database.nls.territory": "JAPAN",
-    "sqldeveloper.database.nls.dateFormat": "YYYY-MM-DD HH24:MI:SS",
-    "sqldeveloper.database.nls.timestampFormat": "YYYY-MM-DD HH24:MI:SS.FF",
-    "sqldeveloper.database.nls.timestampTZ Format": "YYYY-MM-DD HH24:MI:SS.FF TZH:TZM",
-    "sqldeveloper.format.indentation.identSpaces": 4,
-    "sqldeveloper.format.alignment": {
-        "rightAlignQueryKeywords": false,
-        "namedArgumentSeparator": false
-    },
-    "sqldeveloper.sqlHistory.historyLimit": 500,
-    "sqldeveloper.telemetry.enabled": false,
-    "sqldeveloper.datagrid.fontFamily": "Consolas, 'Courier New', monospace",
-    "java.jdt.ls.java.home": "C:\\Java\\openJdk-25",
-    "gremlins.characters": {
-        "2018": {
-            "level": "none"
-        },
-        "2019": {
-            "level": "none"
-        }
-    },
-    "favorites.dataLocation": "c:\\Users\\kator\\AppData\\Roaming\\Code\\User\\favorites.user",
-    "favorites.disablePreviewWarning": true,
-    "favorites.showListSeparator": false,
     "commands.toggleSettings.showNotification": true,
     "commands.commands": {
         "表示.全般": {
@@ -817,5 +683,115 @@
                 }
             }
         }
-    }
+    },
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "all",
+    "editor.showFoldingControls": "always",
+    "editor.rulers": [60, 80, 120],
+    "editor.detectIndentation": false,
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.mouseWheelZoom": true,
+    "search.showLineNumbers": true,
+    "workbench.editor.tabActionCloseVisibility": false,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.activityBar.location": "top",
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.startupEditor": "none",
+    "problems.visibility": false,
+    "window.customMenuBarAltFocus": false,
+    "window.menuBarVisibility": "compact",
+    "window.density.layout": "compact",
+    "window.density.editorTabHeight": "compact",
+    "git.autofetch": true,
+    "git.pruneOnFetch": true,
+    "git.openRepositoryInParentFolders": "never",
+    "git.blame.editorDecoration.enabled": false,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.allowChords": false,
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "terminal.integrated.stickyScroll.enabled": false,
+    "terminal.integrated.mouseWheelZoom": true,
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "npm.exclude": "",
+    "[plaintext]": {
+        "editor.defaultFoldingRangeProvider": "zokugun.explicit-folding",
+        "explicitFolding.rules": [
+            {
+                "begin": "{{{",
+                "end": "}}}"
+            }
+        ]
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.wordWrap": "off"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[xml]": {
+        "editor.defaultFormatter": "redhat.vscode-xml"
+    },
+    "[sql]": {
+        "editor.defaultFormatter": "ReneSaarsoo.sql-formatter-vsc"
+    },
+    "[oracle-sql]": {
+        "editor.defaultFormatter": "Oracle.sql-developer"
+    },
+    "[groovy]": {
+        "editor.defaultFormatter": "NicolasVuillamy.vscode-groovy-lint"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "githd.editor.disabled": true,
+    "githd.blameView.enabled": "disabled",
+    "githd.logView.expressMode": true,
+    "githd.logView.displayExpressStatus": false,
+    "prettier.tabWidth": 4,
+    "prettier.trailingComma": "none",
+    "markdown.extension.list.indentationSize": "inherit",
+    "markdowntable.showMenu.csvToTable": true,
+    "SQL-Formatter-VSCode.dialect": "plsql",
+    "SQL-Formatter-VSCode.ignoreTabSettings": true,
+    "SQL-Formatter-VSCode.tabSizeOverride": 4,
+    "SQL-Formatter-VSCode.linesBetweenQueries": 2,
+    "sqldeveloper.database.nls.language": "JAPANESE",
+    "sqldeveloper.database.nls.dateLanguage": "JAPANESE",
+    "sqldeveloper.database.nls.sort": "JAPANESE_M",
+    "sqldeveloper.database.nls.territory": "JAPAN",
+    "sqldeveloper.database.nls.dateFormat": "YYYY-MM-DD HH24:MI:SS",
+    "sqldeveloper.database.nls.timestampFormat": "YYYY-MM-DD HH24:MI:SS.FF",
+    "sqldeveloper.database.nls.timestampTZ Format": "YYYY-MM-DD HH24:MI:SS.FF TZH:TZM",
+    "sqldeveloper.format.indentation.identSpaces": 4,
+    "sqldeveloper.format.alignment": {
+        "rightAlignQueryKeywords": false,
+        "namedArgumentSeparator": false
+    },
+    "sqldeveloper.sqlHistory.historyLimit": 500,
+    "sqldeveloper.telemetry.enabled": false,
+    "sqldeveloper.datagrid.fontFamily": "Consolas, 'Courier New', monospace",
+    "java.jdt.ls.java.home": "C:\\Java\\openJdk-25",
+    "gremlins.characters": {
+        "2018": {
+            "level": "none"
+        },
+        "2019": {
+            "level": "none"
+        }
+    },
+    "favorites.dataLocation": "c:\\Users\\kator\\AppData\\Roaming\\Code\\User\\favorites.user",
+    "favorites.disablePreviewWarning": true,
+    "favorites.showListSeparator": false
 }
