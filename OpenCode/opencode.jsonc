@@ -1,0 +1,26 @@
+{
+    "$schema": "https://opencode.ai/config.json",
+    "model": "ollama/gemma4:e4b-32k",
+    "plugins": ["@cortexkit/opencode-magic-context@latest"],
+    "compaction": {
+        "auto": false,
+        "prune": false
+    },
+    "websearch": {
+        "provider": "tavily"
+    },
+    "provider": {
+        "ollama": {
+            "npm": "@ai-sdk/openai-compatible",
+            "name": "Ollama",
+            "options": {
+                "baseURL": "http://localhost:11434/v1"
+            },
+            "models": {
+                "gemma4:e4b-32k": {
+                    "name": "gemma4:e4b-32k"
+                }
+            }
+        }
+    }
+}
