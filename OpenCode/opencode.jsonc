@@ -1,24 +1,28 @@
 {
     "$schema": "https://opencode.ai/config.json",
-    "model": "ollama/gemma4:e4b-32k",
-    "plugins": ["@cortexkit/opencode-magic-context@latest"],
-    "compaction": {
-        "auto": false,
-        "prune": false
+    "model": {
+        "providerID": "ollama",
+        "model": "gemma4:e4b-64k"
     },
     "websearch": {
-        "provider": "tavily"
+        "provider": "random"
     },
-    "provider": {
+    "plugins": ["@cortexkit/opencode-magic-context@latest"],
+    "providers": {
         "ollama": {
-            "npm": "@ai-sdk/openai-compatible",
             "name": "Ollama",
-            "options": {
-                "baseURL": "http://localhost:11434/v1"
+            "package": "aisdk:@ai-sdk/openai-compatible",
+            "settings": {
+                "baseURL": "http://127.0.0.1:11434/v1"
             },
             "models": {
-                "gemma4:e4b-32k": {
-                    "name": "gemma4:e4b-32k"
+                "gemma4:e4b-64k": {
+                    "name": "gemma4:e4b-64k",
+                    "limit": {
+                        "context": 65536,
+                        "input": 65536,
+                        "output": 8192
+                    }
                 }
             }
         }

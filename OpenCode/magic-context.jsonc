@@ -2,12 +2,12 @@
     "$schema": "https://raw.githubusercontent.com/cortexkit/magic-context/master/assets/magic-context.schema.json",
     "historian": {
         "opencode": {
-            "model": "ollama/gemma4:e2b-32k"
+            "model": "ollama/gemma4:e4b-64k"
         }
     },
     "dreamer": {
         "opencode": {
-            "model": "ollama/gemma4:e2b-32k"
+            "model": "ollama/gemma4:e4b-64k"
         }
     }
 }

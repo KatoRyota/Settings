@@ -1,0 +1,32 @@
+{
+    "$schema": "https://opencode.ai/config.json",
+    "provider": {
+        "ollama": {
+            "npm": "@ai-sdk/openai-compatible",
+            "name": "Ollama",
+            "options": {
+                "baseURL": "http://127.0.0.1:11434/v1"
+            },
+            "models": {
+                "gemma4:e4b": {
+                    "name": "gemma4:e4b",
+                    "tools": true,
+                    "limit": {
+                        "context": 65536,
+                        "input": 65536,
+                        "output": 8192
+                    }
+                }
+            }
+        }
+    },
+    "model": "ollama/gemma4:e4b",
+    "plugins": ["@cortexkit/opencode-magic-context@latest"],
+    "compaction": {
+        "auto": false,
+        "prune": false
+    },
+    "websearch": {
+        "provider": "random"
+    }
+}
